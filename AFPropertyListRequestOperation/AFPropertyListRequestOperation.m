@@ -22,7 +22,7 @@
 
 #import "AFPropertyListRequestOperation.h"
 
-#import "AFSerialization.h"
+#import "AFURLRequestSerialization.h"
 
 @interface AFPropertyListRequestOperation ()
 @property (readwrite, nonatomic, strong) id responsePropertyList;

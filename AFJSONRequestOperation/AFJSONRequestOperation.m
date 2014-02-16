@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "AFJSONRequestOperation.h"
-#import "AFSerialization.h"
+#import "AFURLRequestSerialization.h"
 
 @interface AFJSONRequestOperation ()
 @property (readwrite, nonatomic, strong) id responseJSON;

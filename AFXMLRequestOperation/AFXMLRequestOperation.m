@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "AFXMLRequestOperation.h"
-#import "AFSerialization.h"
+#import "AFURLRequestSerialization.h"
 #include <Availability.h>
 
 @interface AFXMLRequestOperation ()
