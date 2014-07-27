@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/cabosoft/AFContentRequestOperations"
   s.author       = 'Mattt Thompson'
   s.source       = { :git => "https://github.com/cabosoft/AFContentRequestOperations.git", :branch => 'master' }
-  s.source_files = "AFImageRequestOperation/**/*.{h,m,mm}", "AFJSONRequestOperation/**/*.{h,m,mm}, "AFPropertyListRequestOperation/**/*.{h,m,mm}, "AFXMLRequestOperation/**/*.{h,m,mm}"
+  s.source_files = "AFImageRequestOperation/*.{h,m,mm}", "AFJSONRequestOperation/*.{h,m,mm}, "AFPropertyListRequestOperation/*.{h,m,mm}, "AFXMLRequestOperation/*.{h,m,mm}"
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 2.3.1'
 end
